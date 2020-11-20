@@ -7,6 +7,7 @@
 ## Step 1: Download Firefox Web Driver According to your OS:
 
 [windows 64 bit](https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-win64.zip)
+
 ---
 ## Step 2: Place the web driver on a particular location
 After downloading web driver, extraxt in and place exe in a particular location. In my case as I am using windows, I created a folder in C drive as "Drivers" and pasted the "geckodriver.exe" in it
