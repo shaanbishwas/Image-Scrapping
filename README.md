@@ -8,7 +8,7 @@
 [Windows 64 bit](https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-win64.zip)
 ---
 ## Step 2: Place the web driver on a particular location
-After downloading web driver, extract it and place exe in a particular location. I'm using Windows OS, I created a folder in c-drive as "Drivers" and pasted "geckodriver.exe" in it.
+* After downloading web driver, extract it and place exe in a particular location. I'm using Windows OS, I created a folder in c-drive as "Drivers" and pasted "geckodriver.exe" in it.
 ---
 ## Step 3: Install BeautifulSoup and Selenium
 Open cmd and write below commands to install BeautifulSoup and Selenium
