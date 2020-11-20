@@ -1,11 +1,15 @@
 # Image-Scrapping : How to download google images using Python and Selenium?
+---
 ##Prerequisites
-*Python 3.x
-*Firefox Browser
+* Python 3.x
+* Firefox Browser
+---
 ##Step 1: Download Firefox Web Driver According to your OS:
-[Windows 64 bit](https://github-production-release-asset-2e65be.s3.amazonaws.com/25354393/fb04d600-ecd8-11e9-8592-0da58c43e5b2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20201120%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20201120T180152Z&X-Amz-Expires=300&X-Amz-Signature=fddaa778bd88180d3f767d086cecc0b7c985b39b81194595761ed1ad2a7b3eca&X-Amz-SignedHeaders=host&actor_id=48597654&key_id=0&repo_id=25354393&response-content-disposition=attachment%3B filename%3Dgeckodriver-v0.26.0-win64.zip&response-content-type=application%2Foctet-stream)
+[Windows 64 bit](https://github.com/mozilla/geckodriver/releases/download/v0.26.0/geckodriver-v0.26.0-win64.zip)
+---
 ##Step 2: Place the web driver on a particular location
 After downloading web driver, extract it and place exe in a particular location. I'm using Windows OS, I created a folder in c-drive as "Drivers" and pasted "geckodriver.exe" in it.
+---
 ##Step 3: Install BeautifulSoup and Selenium
 Open cmd and write below commands to install BeautifulSoup and Selenium
 ```python
@@ -13,6 +17,7 @@ pip install bs4
 
 pip install selenium
 ```
+---
 ##Step 4: Code
 ```pyhton
 from selenium import webdriver
